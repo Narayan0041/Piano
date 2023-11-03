@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Virtual Piano</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Welcome to Virtual Piano</h1>
+        <div class="piano-container">
+            <div class="piano-header">
+                <div class="pinao-name">
+                    <span>NARAYAN PIANO</span>
+                </div>
+                <div class="volume-silder">
+                    <span>Volume</span><input type="range">
+                </div>
+                <div class="key-show">
+                    <span></span>
+                    <!-- <p>Key show</p><span></span> -->
+                </div>
+            </div>
+            <ul class="piano-btn">
+                <li class="key white" data-key="a" onclick="play()"><span>a</span></li>
+                <audio id="sound-a" src="/tunes/a.wav"></audio>
+
+                <li class="key black" data-key="w"><span>w</span></li>
+                <audio id="sound-w" src="/tunes/w.wav"></audio>
+
+                <li class="key white" data-key="s"><span>s</span></li>
+                <audio id="sound-s" src="/tunes/s.wav"></audio>
+
+                <li class="key black" data-key="e"><span>e</span></li>
+                <audio id="sound-e" src="/tunes/e.wav"></audio>
+
+                <li class="key white" data-key="d"><span>d</span></li>
+                <audio id="sound-d" src="/tunes/d.wav"></audio>
+
+                <li class="key white" data-key="f"><span>f</span></li>
+                <audio id="sound-f" src="/tunes/f.wav"></audio>
+
+                <li class="key black" data-key="t"><span>t</span></li>
+                <audio id="sound-t" src="/tunes/t.wav"></audio>
+
+                <li class="key white" data-key="g"><span>g</span></li>
+                <audio id="sound-g" src="/tunes/g.wav"></audio>
+
+                <li class="key black" data-key="y"><span>y</span></li>
+                <audio id="sound-y" src="/tunes/y.wav"></audio>
+
+                <li class="key white" data-key="h"><span>h</span></li>
+                <audio id="sound-h" src="/tunes/h.wav"></audio>
+
+                <li class="key black" data-key="u"><span>u</span></li>
+                <audio id="sound-u" src="/tunes/u.wav"></audio>
+
+                <li class="key white" data-key="j"><span>j</span></li>
+                <audio id="sound-j" src="/tunes/j.wav"></audio>
+
+                <li class="key white" data-key="k"><span>k</span></li>
+                <audio id="sound-k" src="/tunes/k.wav"></audio>
+
+                <li class="key black" data-key="o"><span>o</span></li>
+                <audio id="sound-o" src="/tunes/o.wav"></audio>
+
+                <li class="key white" data-key="l"><span>l</span></li>
+                <audio id="sound-l" src="/tunes/l.wav"></audio>
+
+                <li class="key black" data-key="p"><span>p</span></li>
+                <audio id="sound-p" src="/tunes/p.wav"></audio>
+
+                <li class="key white" data-key=";"><span>;</span></li>
+                <audio id="sound-;" src="/tunes/;.wav"></audio>
+
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
